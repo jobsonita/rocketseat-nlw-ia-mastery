@@ -47,3 +47,5 @@ npx shadcn-ui@latest add label
 npx shadcn-ui@latest add select
 npx shadcn-ui@latest add slider
 ```
+
+<p><img src="./.github/interface.png" alt="Interface" title="Implemented interface" width="800px" /></p>
