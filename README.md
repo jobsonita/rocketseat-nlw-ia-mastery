@@ -36,3 +36,9 @@ npx shadcn-ui@latest init
 # ✔ Are you using React Server Components? … no / yes
 # ✔ Write configuration to components.json. Proceed? … yes
 ```
+
+Creating a button:
+
+```bash
+npx shadcn-ui@latest add button
+```
