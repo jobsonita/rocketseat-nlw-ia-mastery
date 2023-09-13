@@ -2,6 +2,8 @@
 
 Rocketseat NLW-IA - Mastery Track
 
+## Frontend
+
 Commands executed:
 
 ```bash
@@ -49,3 +51,21 @@ npx shadcn-ui@latest add slider
 ```
 
 <p><img src="./.github/interface.png" alt="Interface" title="Implemented interface" width="800px" /></p>
+
+## Backend
+
+Commands executed:
+
+```bash
+mkdir upload-ai-api
+cd upload-ai-api/
+npm i -D typescript @types/node tsx
+npm i fastify
+
+npm i -D prisma
+npx prisma init --datasource-provider sqlite
+
+npx prisma migrate dev
+
+npx prisma studio
+```

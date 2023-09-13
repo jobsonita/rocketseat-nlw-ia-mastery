@@ -115,6 +115,18 @@
 					"files.insertFinalNewline": true,
 					"files.trimFinalNewlines": true,
 					"files.trimTrailingWhitespace": true
+				},
+				"[prisma]": {
+					"editor.codeActionsOnSave": {
+						"source.fixAll": true
+					},
+					"editor.formatOnSave": true,
+					"editor.formatOnPaste": true,
+					"editor.insertSpaces": false,
+					"editor.tabSize": 4,
+					"files.insertFinalNewline": true,
+					"files.trimFinalNewlines": true,
+					"files.trimTrailingWhitespace": true
 				}
 			},
 			"extensions": [
@@ -125,7 +137,9 @@
 				"dbaeumer.vscode-eslint",
 				"clinyong.vscode-css-modules",
 				"bradlc.vscode-tailwindcss",
-				"csstools.postcss"
+				"csstools.postcss",
+				"rangav.vscode-thunder-client",
+				"Prisma.prisma"
 			]
 		}
 	}
