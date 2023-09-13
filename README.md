@@ -78,4 +78,7 @@ npm i zod
 
 npm i openai
 npm i -D dotenv
+
+
+npm i @fastify/cors
 ```
