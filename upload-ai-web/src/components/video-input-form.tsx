@@ -10,6 +10,10 @@ import { Label } from './ui/label';
 import { Separator } from './ui/separator';
 import { Textarea } from './ui/textarea';
 
+interface VideoInputFormProps {
+  onVideoUploaded: (id: string) => void
+}
+
 type Status = 'waiting' | 'converting' | 'uploading' | 'generating' | 'success'
 
 const statusMessages = {
@@ -20,7 +24,7 @@ const statusMessages = {
   success: 'Sucesso!',
 }
 
-export function VideoInputForm() {
+export function VideoInputForm({ onVideoUploaded }: VideoInputFormProps) {
   const [videoFile, setVideoFile] = useState<File | null>(null)
   const [status, setStatus] = useState<Status>('waiting')
 
@@ -104,6 +108,8 @@ export function VideoInputForm() {
     await api.post(`/videos/${videoId}/transcription`, { prompt })
 
     setStatus('success')
+
+    onVideoUploaded(videoId)
   }
 
   const previewURL = useMemo(() => {
