@@ -1,6 +1,12 @@
 # rocketseat-nlw-ia-mastery
 
-Rocketseat NLW-IA - Mastery Track
+## Rocketseat NLW-IA - Mastery Track
+
+Final Result
+
+<p><img src="./.github/resultado.png" alt="Results" title="Final interface" width="800px" /></p>
+
+<a href="https://drive.google.com/file/d/1HrhU2zLEw8AzeRn9BFptyYqXGcUdT4mg/preview">Video demonstration</a>
 
 ## Frontend
 
