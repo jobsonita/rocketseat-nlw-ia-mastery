@@ -82,3 +82,15 @@ npm i -D dotenv
 
 npm i @fastify/cors
 ```
+
+## Video Processing
+
+```bash
+npm i @ffmpeg/ffmpeg @ffmpeg/util
+```
+
+## Communication between Frontend and Backend
+
+```
+npm i axios
+```
