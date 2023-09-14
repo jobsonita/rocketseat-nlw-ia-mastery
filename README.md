@@ -94,3 +94,15 @@ npm i @ffmpeg/ffmpeg @ffmpeg/util
 ```
 npm i axios
 ```
+
+## Receiving the openai response asynchronously
+
+```
+npm i ai
+```
+
+## Populating the database from a seed file
+
+```
+npx prisma db seed
+```
